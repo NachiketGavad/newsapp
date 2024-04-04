@@ -106,13 +106,31 @@ export default class NewsComponent extends Component {
       loading : false
     }
   }
+  
+  async componentDidMount() {
+    // Define the URL for fetching news articles
+    let url = "https://newsapi.org/v2/top-headlines?country=in&apiKey=760a91d6c4834dfbbea3bbd4c51f2950";
+  
+    // Fetch data from the specified URL
+    let data = await fetch(url);
+  
+    // Parse the fetched JSON data
+    let parsedData = await data.json();
+  
+    // Log the parsed data to the console
+    console.log(parsedData);
+  
+    // Update the component's state with the fetched articles
+    this.setState({ articles: parsedData.articles });
+  }
+  
   render() {
     return (
       <div className={ `mb-3 bg-${this.props.mode} text-${this.props.mode==='dark'?'light':'dark'} border-${this.props.mode==='dark'?'light':'dark'} container`} >
         <div className='row'>
           {this.state.articles.map((element)=>{
             return <div className='col-md-3 mx-2 my-2' key={element.url}>
-                    <NewsItem title={!element.title?"Mytitle":element.title.slice(0,80)} description={!element.description?"MyDescription":element.description.slice(0,80)} urlToImage={!element.urlToImage?defaultImage:element.urlToImage} url={element.url} mode={this.props.mode}/>
+                    <NewsItem title={!element.title?"":element.title.slice(0,80)} description={!element.description?"":element.description.slice(0,80)} urlToImage={!element.urlToImage?defaultImage:element.urlToImage} url={element.url} mode={this.props.mode}/>
                   </div>
           })}
         </div>

@@ -26,7 +26,7 @@ function App() {
     else{
       setMode('light');
       settogglebtn('Enable Dark Mode');
-      document.body.style.backgroundColor='White';
+      document.body.style.backgroundColor='#F8F9FA';
       document.body.style.Color='Black';
       showAlert('Light Mode Enabled','success');
     }
@@ -48,11 +48,11 @@ function App() {
   
   return (
     // passing props to components is important step
-    <>
+    <div className={`bg-${mode} text-${mode==='dark'?'light':'dark'}`}>
       <NavBar title="News App" aboutText="about" mode={mode} togglebtn={togglebtn} toggleMode={toggleMode} showAlert={showAlert}></NavBar>
       <Alert alert={alert} showAlert={showAlert} mode={mode}/>
       <NewsComponent  mode={mode}/>
-    </>
+      </div>
   );
 }
 
