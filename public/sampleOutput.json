@@ -1,0 +1,266 @@
+{
+    "status": "ok",
+    "totalResults": 37,
+    "articles": [
+        {
+            "source": {
+                "id": "reuters",
+                "name": "Reuters"
+            },
+            "author": "Reuters.com",
+            "title": "Helicopter rescues Taiwan miners as earthquake injuries top 1000 - Reuters.com",
+            "description": null,
+            "url": "https://www.reuters.com/world/asia-pacific/taiwan-earthquake-injuries-climb-above-1000-hotel-workers-still-missing-2024-04-04/",
+            "urlToImage": null,
+            "publishedAt": "2024-04-04T07:15:33Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "CNBC"
+            },
+            "author": "Elliot Smith",
+            "title": "Russia-Ukraine war live updates: Russian drone attack kills rescue workers in Kharkiv; Moscow says NATO dialog at 'zero' but does not seek conflict - CNBC",
+            "description": "Russian drone strikes on Kharkiv killed at least four people, including three rescue workers, and injured 12 more, according to Ukrainian officials.",
+            "url": "https://www.cnbc.com/2024/04/04/russia-ukraine-live-updates.html",
+            "urlToImage": "https://image.cnbcfm.com/api/v1/image/107394172-1711629956795-gettyimages-2117846940-dsc01108_suspilne_27032024_kharkiv_dt.jpeg?v=1712209357&w=1920&h=1080",
+            "publishedAt": "2024-04-04T07:02:00Z",
+            "content": "Russian drone strikes on Kharkiv early Friday morning killed at least four people, including three rescue workers, and injured 12 more, according to Ukrainian officials.\r\nIn a post on the Telegram me… [+788 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Variety"
+            },
+            "author": "Aramide Tinubu",
+            "title": "Andrew Scott Is Utterly Charmless in Netflix’s Somber ‘Ripley’: TV Review - Variety",
+            "description": "Andrew Scott's take on Tom Ripley in Netflix's 'Ripley' lacks the excitement of the film or the infamous novels.",
+            "url": "https://variety.com/2024/tv/reviews/ripley-tv-review-netflix-series-1235957687/",
+            "urlToImage": "https://variety.com/wp-content/uploads/2024/04/Ripley_BW_2.4.1_v4.jpg?w=1000&h=563&crop=1",
+            "publishedAt": "2024-04-04T07:01:00Z",
+            "content": "Patricia Highsmith’s 1955 crime novel, “The Talented Mr. Ripley,” is regarded as one of the greatest thrillers of all time. It has spawned several film adaptations, including Anthony Minghella’s “The… [+4973 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "[Removed]"
+            },
+            "author": null,
+            "title": "[Removed]",
+            "description": "[Removed]",
+            "url": "https://removed.com",
+            "urlToImage": null,
+            "publishedAt": "1970-01-01T00:00:00Z",
+            "content": "[Removed]"
+        },
+        {
+            "source": {
+                "id": "the-washington-post",
+                "name": "The Washington Post"
+            },
+            "author": "Des Bieler",
+            "title": "Rangers-Devils brawl results in eight ejections two seconds into game - The Washington Post",
+            "description": "New York’s Matt Rempe and New Jersey’s Kurtis MacDermid could have been expected to square off right away, but all 10 skaters decided to drop the gloves.",
+            "url": "https://www.washingtonpost.com/sports/2024/04/03/rangers-devils-brawl/",
+            "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GUNP4IHH6WHPFJTBJZTYR3N6CU_size-normalized.jpg&w=1440",
+            "publishedAt": "2024-04-04T04:26:11Z",
+            "content": "When the Rangers Matt Rempe and the Devils Kurtis MacDermid were listed as starters for New Yorks game Wednesday night against visiting New Jersey, it was reasonable to suspect and expect that the to… [+4809 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BBC News"
+            },
+            "author": null,
+            "title": "Pig kidney transplant patient leaves hospital - BBC.com",
+            "description": "The procedure was hailed as a historic step as doctors tackle a widespread organ donor shortage.",
+            "url": "https://www.bbc.com/news/world-us-canada-68710229",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/10B72/production/_133066486_slayman-1.png",
+            "publishedAt": "2024-04-04T03:40:39Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "espn",
+                "name": "ESPN"
+            },
+            "author": null,
+            "title": "Pistons reserve Malachi Flynn puts up 50 in loss to Hawks - ESPN",
+            "description": "Detroit point guard Malachi Flynn had just the third game of 50 points or more by a player off the bench since starters were first tracked in 1970-71.",
+            "url": "https://www.espn.com/nba/story/_/id/39871368/pistons-reserve-malachi-flynn-puts-50-loss-hawks",
+            "urlToImage": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2024%2F0404%2Fr1314002_1296x729_16%2D9.jpg",
+            "publishedAt": "2024-04-04T03:19:55Z",
+            "content": "Detroit Pistons reserve point guard Malachi Flynn gave a rare 50-point performance in Wednesday night's 121-113 loss to the Atlanta Hawks.\r\nIt was just the third game of 50 points or more by a player… [+1867 chars]"
+        },
+        {
+            "source": {
+                "id": "associated-press",
+                "name": "Associated Press"
+            },
+            "author": "BRETT MARTEL",
+            "title": "LSU star Angel Reese declares for WNBA draft via Vogue photo shoot, says 'I didn't want to be basic' - The Associated Press",
+            "description": "Bayou Barbie is WNBA bound. LSU star Angel Reese formally declared for the WNBA draft less than two days after the Tigers’ season ended with a loss to Caitlin Clark and Iowa in the Elite Eight round of the women’s NCAA Tournament. Reese made her announcement …",
+            "url": "https://apnews.com/article/angel-reese-lsu-wnba-draft-814fd88e955d4860acc252e161f0d670",
+            "urlToImage": "https://dims.apnews.com/dims4/default/5e6b64c/2147483647/strip/true/crop/3965x2230+0+206/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fbc%2Fd7%2Fb7ab8aace26d4a903d314b6ee8e0%2F8b145a5dc8054c5facb76d4e0e857a54",
+            "publishedAt": "2024-04-04T03:18:00Z",
+            "content": "Bayou Barbie is WNBA bound.\r\nLSU star Angel Reese, who is known for her eyelash extensions, painted fingernails and ferocious play in the paint, formally declared for the WNBA draft on Wednesday. Her… [+5432 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Lauren del Valle, Christina Maxouris",
+            "title": "Prosecutors say school shooter Ethan Crumbley’s parents show ‘chilling lack of remorse’ after manslaughter convictions - CNN",
+            "description": "In newly filed court documents, Michigan prosecutors are asking a judge to sentence the parents of school shooter Ethan Crumbley to at least 10 years in prison, alleging they have both showed a “chilling lack of remorse” after they were convicted for involunt…",
+            "url": "https://www.cnn.com/2024/04/03/us/crumbley-parents-michigan-shooting-prosecutors-sentence/index.html",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/20240315-01-crumbley-parents-split.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2024-04-04T03:10:00Z",
+            "content": "In newly filed court documents, Michigan prosecutors are asking a judge to sentence the parents of school shooter Ethan Crumbley to at least 10 years in prison, alleging they have both showed a chill… [+5341 chars]"
+        },
+        {
+            "source": {
+                "id": "cbs-news",
+                "name": "CBS News"
+            },
+            "author": "Jordan Freiman",
+            "title": "Powerball winning numbers drawn for $1.09 billion jackpot - CBS News",
+            "description": "Just over a week after a winning ticket was sold for a $1.13 billion Mega Millions jackpot​, an estimated $1.09 billion is at stake in Wednesday's Powerball drawing.",
+            "url": "https://www.cbsnews.com/news/powerball-numbers-tuesday-drawing-1-billion-jackpot/",
+            "urlToImage": "https://assets2.cbsnewsstatic.com/hub/i/r/2024/04/03/9aa801c3-54a6-435e-b1ee-059ed9348c07/thumbnail/1200x630/024f29361147ecdc2fb2b142d0f6f8b2/gettyimages-2123636617.jpg?v=28e996fb04f1867b9e0abe6d7ce5112f",
+            "publishedAt": "2024-04-04T03:02:13Z",
+            "content": "Just over a week after a winning ticket was sold for a $1.13 billion Mega Millions jackpot, an estimated $1.09 billion is at stake in the Powerball drawing. The winning numbers for Wednesday night's … [+968 chars]"
+        },
+        {
+            "source": {
+                "id": "the-hill",
+                "name": "The Hill"
+            },
+            "author": "Sarah Fortinsky",
+            "title": "Ty Cobb says 11th Circuit may remove judge from Trump documents case - The Hill",
+            "description": "Former White House attorney Ty Cobb on Wednesday predicted that the 11th Circuit Court could ultimately decide to remove Judge Aileen Cannon from the case involving former President Trump’s mishandling of classified documents at his estate in Florida. In an i…",
+            "url": "https://thehill.com/homenews/4573686-ty-cobb-says-11th-circuit-may-remove-judge-from-trump-documents-case/",
+            "urlToImage": "https://thehill.com/wp-content/uploads/sites/2/2023/08/Ty-Cobb-Trump.png?w=1280",
+            "publishedAt": "2024-04-04T03:02:00Z",
+            "content": "Skip to content\r\nFormer White House attorney Ty Cobb on Wednesday predicted that the 11th Circuit Court could ultimately decide to remove Judge Aileen Cannon from the case involving former President … [+2326 chars]"
+        },
+        {
+            "source": {
+                "id": "axios",
+                "name": "Axios"
+            },
+            "author": "Axios",
+            "title": "Israeli war cabinet member Benny Gantz calls for early elections - Axios",
+            "description": null,
+            "url": "https://www.axios.com/2024/04/03/israel-elections-benny-gantz-netanyahu",
+            "urlToImage": null,
+            "publishedAt": "2024-04-04T02:48:03Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "politico",
+                "name": "Politico"
+            },
+            "author": "POLITICO",
+            "title": "Iran ramps up threats against Israel following consulate airstrike - POLITICO",
+            "description": null,
+            "url": "https://www.politico.com/news/2024/04/03/iran-israel-consulate-airstrike-00150534",
+            "urlToImage": null,
+            "publishedAt": "2024-04-04T02:45:29Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BBC News"
+            },
+            "author": null,
+            "title": "Israel minister denies Gaza aid convoy air strike was deliberate - BBC.com",
+            "description": "Nir Barkat tells the BBC claims Israeli forces deliberately targeted aid workers are 'nonsense'.",
+            "url": "https://www.bbc.com/news/world-middle-east-68729064",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/C31B/production/_133074994_carepa.jpg",
+            "publishedAt": "2024-04-04T02:36:13Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Us Weekly"
+            },
+            "author": "Shelby Stivale",
+            "title": "Julia Stiles Reveals She Secretly Welcomed Baby No. 3 With Husband Preston Cook 5 Months Ago - Yahoo Entertainment",
+            "description": "Julia Stiles secretly welcomed baby No. 3 with husband Preston Cook. “I’m kind of like a bundle of emotions, because I have a 5-month-old baby and I went...",
+            "url": "https://www.usmagazine.com/celebrity-moms/news/julia-stiles-preston-cook-secretly-welcomed-baby-no-3-months-ago/",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/CnEsqsxW8EjyAStuya5tKg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD0xODAw/https://media.zenfs.com/en/us_magazine_896/9c663caebdab5b7a1bc4296b0bfe815d",
+            "publishedAt": "2024-04-04T02:17:40Z",
+            "content": "Julia Stiles secretly welcomed baby No. 3 with husband Preston Cook.\r\nIm kind of like a bundle of emotions, because I have a 5-month-old baby and I went into directing my first movie, Stiles, 43, sha… [+2639 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Yahoo Entertainment"
+            },
+            "author": "Sean Leahy",
+            "title": "Bills agree to trade Stefon Diggs to Texans for 2025 second-round draft pick - Yahoo Sports",
+            "description": "Diggs has spent the past four seasons with the Bills.",
+            "url": "https://sports.yahoo.com/bills-trade-stefon-diggs-to-texans-for-2025-second-round-draft-pick-150158347.html",
+            "urlToImage": "https://s.yimg.com/ny/api/res/1.2/3mpma1iFX0ghUoHB.Uewpw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2024-03/bcad5cf0-f1ca-11ee-bfeb-4263f2d15fc3",
+            "publishedAt": "2024-04-04T02:16:00Z",
+            "content": "The Buffalo Bills have agreed to a trade that will send wide receiver Stefon Diggs to the Houston Texans, the team announced on Wednesday.\r\nAs part of the deal, the Bills will get a 2025 second-round… [+3109 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "New York Post"
+            },
+            "author": "Fox Business",
+            "title": "California bill would let employees ignore boss' after-hours calls, messages - New York Post ",
+            "description": "Workers in California may legally be allowed to disregard messages from their boss after the work day ends.",
+            "url": "https://nypost.com/2024/04/03/business/california-bill-would-let-employees-ignore-boss-after-hours-calls-messages/",
+            "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2024/04/Untitled-1_2aeb3e.jpg?quality=75&strip=all&w=1024",
+            "publishedAt": "2024-04-04T01:54:00Z",
+            "content": "Workers in California may legally be allowed to disregard messages from their boss after the work day ends. \r\nThe pressure to respond to work messages after hours has rapidly increased in recent year… [+2267 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "BBC News"
+            },
+            "author": null,
+            "title": "Google looks to AI paywall option - report - BBC.com",
+            "description": "The search giant is reported to be considering charging for premium features in a major business shake-up.",
+            "url": "https://www.bbc.com/news/business-68727857",
+            "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/16A4B/production/_133074729_mediaitem133074728.jpg",
+            "publishedAt": "2024-04-04T01:46:42Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "fox-news",
+                "name": "Fox News"
+            },
+            "author": "Stepheny Price, Greg Norman",
+            "title": "Foul play suspected in disappearance of two women last seen in Oklahoma: officials - Fox News",
+            "description": "The Oklahoma State Bureau of investigations is now saying that they suspect \"foul play\" in the disappearance of two Kansas women traveling through Oklahoma over the weekend.",
+            "url": "https://www.foxnews.com/us/foul-play-suspected-disappearance-two-women-last-seen-oklahoma-officials",
+            "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2024/04/Veronica-Butler-and-Jilian-Kelley.jpg",
+            "publishedAt": "2024-04-04T01:23:00Z",
+            "content": "Authorities say there is now enough evidence to suspect foul play in the disappearance of Veronica Butler and Jilian Kelley, two Kansas women who vanished over the weekend while traveling to pick up … [+2739 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "mlive.com"
+            },
+            "author": "Andrew Potter | apotter@mlive.com",
+            "title": "Satellite image shows cyclone storm sweeping across Michigan, southern states - MLive.com",
+            "description": "Large, destructive tornadoes, damaging hail and wind inundated the south yesterday while heavy snow and rain fell in the north.",
+            "url": "https://www.mlive.com/weather/2024/04/satellite-image-shows-cyclone-storm-sweeping-across-michigan-southern-states.html",
+            "urlToImage": "https://www.mlive.com/resizer/v2/URXS6L75W5FDZGVASPDVH5DDIM.jpg?auth=93c654c397056e08f3f55fdbd3ec7dde69dbc4cbf7e13257977c2b5c0d6740ea&width=1280&quality=90",
+            "publishedAt": "2024-04-04T00:50:00Z",
+            "content": "A big chunk of the U.S. sitting east of the Mississippi River experienced just about all modes of early-spring weather on Tuesday and into today. From heavy snow and a Blizzard Warning in Michigans U… [+3462 chars]"
+        }
+    ]
+}
