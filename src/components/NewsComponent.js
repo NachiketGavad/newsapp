@@ -98,18 +98,22 @@ export default class NewsComponent extends Component {
         "content": "In newly filed court documents, Michigan prosecutors are asking a judge to sentence the parents of school shooter Ethan Crumbley to at least 10 years in prison, alleging they have both showed a chill… [+5341 chars]"
     }
   ]
+
+  myarticles = []
+
   constructor(){
     super();
     console.log("constructor from news");
     this.state = {
       articles : this.myarticles,
-      loading : false
+      loading : false,
+      page : 1
     }
   }
   
   async componentDidMount() {
     // Define the URL for fetching news articles
-    let url = "https://newsapi.org/v2/top-headlines?country=in&apiKey=760a91d6c4834dfbbea3bbd4c51f2950";
+    let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=760a91d6c4834dfbbea3bbd4c51f2950&page=1&pageSize=20`;
   
     // Fetch data from the specified URL
     let data = await fetch(url);
@@ -121,7 +125,35 @@ export default class NewsComponent extends Component {
     console.log(parsedData);
   
     // Update the component's state with the fetched articles
-    this.setState({ articles: parsedData.articles });
+    this.setState({ articles: parsedData.articles,totalResults:parsedData.totalResults });
+  }
+
+  handlePrevClick = async ()=>{
+    console.log("previous");
+    let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=760a91d6c4834dfbbea3bbd4c51f2950&page=${this.state.page-1}&pageSize=20`;
+    let data = await fetch(url);
+    let parsedData = await data.json();
+  
+    this.setState({ 
+      articles: parsedData.articles,
+      totalResults:parsedData.totalResults,
+      page :this.state.page-1
+    });
+  }
+
+  handleNextClick = async ()=>{
+    console.log("Next");
+    if(this.state.page + 1 <= Math.ceil(this.state.totalResults/20)){
+      let url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=760a91d6c4834dfbbea3bbd4c51f2950&page=${this.state.page+1}&pageSize=20`;
+      let data = await fetch(url);
+      let parsedData = await data.json();
+    
+      this.setState({ 
+        articles: parsedData.articles,
+        totalResults:parsedData.totalResults,
+        page :this.state.page+1
+      });
+    }
   }
   
   render() {
@@ -129,10 +161,14 @@ export default class NewsComponent extends Component {
       <div className={ `mb-3 bg-${this.props.mode} text-${this.props.mode==='dark'?'light':'dark'} border-${this.props.mode==='dark'?'light':'dark'} container`} >
         <div className='row'>
           {this.state.articles.map((element)=>{
-            return <div className='col-md-3 mx-2 my-2' key={element.url}>
+            return <div className='col-md-3 mx-3 my-2' key={element.url}>
                     <NewsItem title={!element.title?"":element.title.slice(0,80)} description={!element.description?"":element.description.slice(0,80)} urlToImage={!element.urlToImage?defaultImage:element.urlToImage} url={element.url} mode={this.props.mode}/>
                   </div>
           })}
+        </div>
+        <div className='container d-flex justify-content-between'>
+          <button disabled={this.state.page<=1} type="button" className="btn btn-dark" onClick={this.handlePrevClick}>&larr; Previous</button>
+          <button type="button" className="btn btn-dark" onClick={this.handleNextClick}>Next &rarr;</button>
         </div>
       </div>
     )
