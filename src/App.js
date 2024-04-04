@@ -4,6 +4,8 @@ import NavBar from './components/NavBar';
 import Alert from './components/Alert';
 import NewsComponent from './components/NewsComponent';
 
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 function App() {
   // switching modes from App
   // hook useState
@@ -48,11 +50,21 @@ function App() {
   
   return (
     // passing props to components is important step
-    <div className={`bg-${mode} text-${mode==='dark'?'light':'dark'}`}>
-      <NavBar title="News App" aboutText="about" mode={mode} togglebtn={togglebtn} toggleMode={toggleMode} showAlert={showAlert}></NavBar>
-      <Alert alert={alert} showAlert={showAlert} mode={mode}/>
-      <NewsComponent  mode={mode}/>
+    <Router>
+      <div className={`bg-${mode} text-${mode==='dark'?'light':'dark'}`}>
+        <NavBar title="News App" aboutText="about" mode={mode} togglebtn={togglebtn} toggleMode={toggleMode} showAlert={showAlert}></NavBar>
+        <Alert alert={alert} showAlert={showAlert} mode={mode}/>
+        <Routes>
+          <Route path='/general' element={<NewsComponent key="general" mode={mode} pageSize={6} country='in' category='general'/>} />
+          <Route path='/business' element={<NewsComponent key='business' mode={mode} pageSize={6} country='in' category='business'/>} />
+          <Route path='/entertainment' element={<NewsComponent key='entertainment' mode={mode} pageSize={6} country='in' category='entertainment'/>} />
+          <Route path='/health' element={<NewsComponent key='health' mode={mode} pageSize={6} country='in' category='health'/>} />
+          <Route path='/science' element={<NewsComponent key='science' mode={mode} pageSize={6} country='in' category='science'/>} />
+          <Route path='/sports' element={<NewsComponent key='sports' mode={mode} pageSize={6} country='in' category='sports'/>} />
+          <Route path='/technology' element={<NewsComponent key='technology' mode={mode} pageSize={6} country='in' category='technology'/>} />
+        </Routes>
       </div>
+    </Router>
   );
 }
 
