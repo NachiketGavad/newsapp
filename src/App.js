@@ -49,7 +49,7 @@ function App() {
   return (
     // passing props to components is important step
     <>
-      <NavBar title="News Man App" aboutText="about" mode={mode} togglebtn={togglebtn} toggleMode={toggleMode} showAlert={showAlert}></NavBar>
+      <NavBar title="News App" aboutText="about" mode={mode} togglebtn={togglebtn} toggleMode={toggleMode} showAlert={showAlert}></NavBar>
       <Alert alert={alert} showAlert={showAlert} mode={mode}/>
       <NewsComponent  mode={mode}/>
     </>
