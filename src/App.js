@@ -50,9 +50,8 @@ function App() {
     // passing props to components is important step
     <div className={`bg-${mode} text-${mode==='dark'?'light':'dark'}`}>
       <NavBar title="News App" aboutText="about" mode={mode} togglebtn={togglebtn} toggleMode={toggleMode} showAlert={showAlert}></NavBar>
-      <h1 className='text-center'>Top Headlines </h1>
       <Alert alert={alert} showAlert={showAlert} mode={mode}/>
-      <NewsComponent  mode={mode} pageSize={5}/>
+      <NewsComponent  mode={mode}/>
       </div>
   );
 }

@@ -9,11 +9,18 @@ export default function NavBar(props) {
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      {/* <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">{props.aboutText}</a>
+          <a className="nav-link" aria-current="page" href="#">{props.aboutText}</a>
         </li>
-      </ul> */}
+        <li className="nav-item"><a className="nav-link" aria-current="page" href="#">business</a></li>
+        <li className="nav-item"><a className="nav-link" aria-current="page" href="#">entertainment</a></li>
+        <li className="nav-item"><a className="nav-link" aria-current="page" href="#">general</a></li>
+        <li className="nav-item"><a className="nav-link" aria-current="page" href="#">health</a></li>
+        <li className="nav-item"><a className="nav-link" aria-current="page" href="#">science</a></li>
+        <li className="nav-item"><a className="nav-link" aria-current="page" href="#">sports</a></li>
+        <li className="nav-item"><a className="nav-link" aria-current="page" href="#">technology</a></li>
+      </ul>
     </div>
         <div className={`navbar-nav form-check form-switch mt-2 bg-${props.mode} text-${props.mode==='dark'?'light':'dark'}`}>
           <input className="form-check-input mx-2" onClick={props.toggleMode} type="checkbox" role="switch" id="flexSwitchCheckDefault"/>

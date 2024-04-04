@@ -1,5 +1,5 @@
 
-   myarticles = [
+  myarticles = [
     {
         "source": {
             "id": "reuters",
