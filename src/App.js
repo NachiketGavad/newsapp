@@ -55,6 +55,7 @@ function App() {
         <NavBar title="News App" aboutText="about" mode={mode} togglebtn={togglebtn} toggleMode={toggleMode} showAlert={showAlert}></NavBar>
         <Alert alert={alert} showAlert={showAlert} mode={mode}/>
         <Routes>
+          <Route path='/' element={<NewsComponent key="general" mode={mode} pageSize={6} country='in' category='general'/>} />
           <Route path='/general' element={<NewsComponent key="general" mode={mode} pageSize={6} country='in' category='general'/>} />
           <Route path='/business' element={<NewsComponent key='business' mode={mode} pageSize={6} country='in' category='business'/>} />
           <Route path='/entertainment' element={<NewsComponent key='entertainment' mode={mode} pageSize={6} country='in' category='entertainment'/>} />

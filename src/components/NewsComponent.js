@@ -85,12 +85,12 @@ export default class NewsComponent extends Component {
   render() {
     return (
       <div className={ `mb-3 bg-${this.props.mode} text-${this.props.mode==='dark'?'light':'dark'} border-${this.props.mode==='dark'?'light':'dark'} align-items-center container`} >
-      <h1 className='text-center my-3'>Top Headlines </h1>
+      <h1 className='text-center my-3'>News - Top Headlines </h1>
         {this.state.loading && <Spinner/>}
         <div className='row d-flex justify-content-center'>
           {!this.state.loading && this.state.articles.map((element)=>{
             return <div className='col-md-3 mx-2 my-2' key={element.url}>
-                    <NewsItem title={!element.title?"":element.title.slice(0,80)} description={!element.description?"":element.description.slice(0,80)} urlToImage={!element.urlToImage?defaultImage:element.urlToImage} url={element.url} mode={this.props.mode}/>
+                    <NewsItem title={!element.title?"":element.title.slice(0,80)} description={!element.description?"":element.description.slice(0,80)} urlToImage={!element.urlToImage?defaultImage:element.urlToImage} url={element.url} author={element.author} date={element.publishedAt} source={element.source.name}  mode={this.props.mode}/>
                   </div>
           })}
         </div>
