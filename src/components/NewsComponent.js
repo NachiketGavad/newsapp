@@ -40,16 +40,22 @@ export default class NewsComponent extends Component {
   // first key 760a91d6c4834dfbbea3bbd4c51f2950
   // spare key 0ad44c6984db4a36a9920b93476ee8e2
   async updateNow(){
+    this.props.setProgress(0);
+    
     let url = `https://newsapi.org/v2/top-headlines?country=in&category=${this.props.category}&apiKey=0ad44c6984db4a36a9920b93476ee8e2&page=${this.state.page}&pageSize=${this.props.pageSize}`;
+    this.props.setProgress({progress:30});
+    
     this.setState({loading:true });
     let data = await fetch(url);
     let parsedData = await data.json();
+    this.props.setProgress(70);
   
     this.setState({ 
       articles: parsedData.articles,
       totalResults:parsedData.totalResults,
       loading:false
     });
+    this.props.setProgress(100);
   }
   
   async componentDidMount() {

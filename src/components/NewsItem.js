@@ -5,9 +5,14 @@ export default class NewsItem extends Component {
     let {title, description, urlToImage,url,author, date,source} = this.props
     return (
       <div>
-        <div className={`card bg-${this.props.mode} text-${this.props.mode==='dark'?'light':'dark'}`}>
-          <div>
-            <span className="position-absolute top-0 translate-middle badge rounded-pill bg-danger" style={{left:'90%',zIndex:'1'}}>
+        <div className={`card border-rounded bg-${this.props.mode} text-${this.props.mode==='dark'?'light':'dark'}`}>
+          <div style={{
+            display:'flex',
+            justifyContent:'flex-end',
+            position:'absolute',
+            right:'0'
+          }}>
+            <span className="badge rounded-pill bg-danger" style={{left:'90%',zIndex:'1'}}>
               {source}
               <span className="visually-hidden">unread messages</span>
             </span>
