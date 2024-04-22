@@ -18,7 +18,7 @@ function App() {
   
   // toggle function
   const toggleMode = ()=>{
-    console.log('toggle clicked')
+    // console.log('toggle clicked')
     if(mode==='light'){
       setMode('dark');
       settogglebtn('Light Mode');
@@ -38,7 +38,7 @@ function App() {
   // alert function
   // 2 props of alert object
   const showAlert = (message,type)=>{
-    console.log('alert');
+    // console.log('alert');
     setAlert({
       msg:message,
       type:type
@@ -51,7 +51,7 @@ function App() {
 
   const apiKey = process.env.REACT_APP_NEWS_API_KEY;
   // const apiKey = '0ad44c6984db4a36a9920b93476ee8e2'; 
-  console.log(apiKey);
+  // console.log(apiKey);
   const [progress,setProgress] = useState(0);
   
   return (
